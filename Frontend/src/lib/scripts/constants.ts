@@ -1,4 +1,4 @@
-export const BASE_PATH = import.meta.env.VITE_API_URL || "https://crystalsymc-bot.netlify.app"
+export const BASE_PATH = import.meta.env.VITE_API_URL || "http://176.146.35.221:25576/"
 export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://invite.crystalsymc-bot.netlify.app"
 
 export function get(path: string) {
